@@ -1,0 +1,68 @@
+.timeline{
+    display: flex;
+    padding: 40px;
+}
+
+#contenedor-tweet{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: -50px;
+    margin-bottom: 15px;
+    align-items: center;
+    padding: 7px;
+    justify-content: space-between;
+}
+
+.twdiv{ 
+  padding:20px;
+  justify-content: flex-start;
+}
+
+.fechadiv{
+    color:grey;
+    min-width: 9vw;
+}
+
+#contenedor-tweet img{
+    border-radius: 10px;
+    margin-left: 4px;
+}
+
+#contenedor-tweet img{
+    width: 3vw;
+    height: 60px;
+}
+
+#contenidoinsta{
+    display: flex;
+    flex-direction: column;
+}
+
+#contenidotw, #contenidoinsta{
+    overflow: auto;
+    max-height: 80vh;
+    max-width: 60vw;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tw-timeline{
+    width: 50%;
+    padding-right: 2vw;
+}
+
+#ins-timeline{
+    width: 50%;
+}
+
+#titulo{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,111 @@
+/*COSITAS DEL GOOGLE MAPS/*
+
+/* Always set the map height explicitly to define the size of the div
+           * element that contains the map. */
+#map {
+    height: 94%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Nunito';
+}
+
+.navbar-brand{
+    margin-left: 10px;
+}
+
+#tweets{
+    max-width: 300px;
+    max-height: 500px;
+}
+
+/* TOGGLES */
+
+#floating-panel{
+    position: absolute;
+    bottom: 10px;
+    left: 1%;
+    padding-top: 1vmin;
+    padding-bottom: 1vmin;
+    padding-left: 0.5vmin;
+    padding-right: 0.5vmin;
+    z-index: 5;
+    background-color: #fff;
+    border-radius: 1vmin;
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    max-width: 140vh;
+    max-width: 40vw;
+}
+
+.item .item{
+    display:flex;
+    font-size: 18px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+/*PANEL INFOWINDOW*/
+
+#move{
+    position: absolute;
+    bottom: 0%;
+    right: -40%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    max-height: 80vh;
+    padding: 20px;
+}
+
+.fechadiv{
+    color: #828282;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.twdiv{
+    margin-bottom: 8px;
+}
+
+#informacion-util{
+    overflow: auto;
+}
+
+.btn-outline-secondary{
+    width: 100%;
+}
+
+h5{
+    font-family: 'Nunito', bold;
+}
+
+.h1 {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(64, 64, 64);
+  }
+
+.hamburguesa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,367 @@
+@media only screen and (max-width: 1368px){
+    
+    #floating-panel-right{
+    position: absolute;
+    bottom: 0%;
+    right: -40%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 35%;
+    margin-right: 10px;
+
+}
+
+
+@media only screen and (max-width: 1024px){
+    
+    #floating-panel-right{
+    position: absolute;
+    bottom: 0%;
+    right: -40%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 35%;
+    margin-right: 10px;
+
+}
+
+
+}
+    
+@media only screen and (max-width: 940px){
+    
+    #floating-panel-right{
+    position: absolute;
+    bottom: 0%;
+    right: -40%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 40%;
+    margin-right: 10px;
+
+    }
+
+}
+    
+@media only screen and (max-width: 800px){
+    
+    #floating-panel-right{
+    position: absolute;
+    bottom: 0%;
+    right: -40%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    margin-right: 18px;
+    }
+    
+    #full-floating-panel-right{
+    padding-top: 0.5vmin;
+    padding-bottom: 1vmin;
+    padding-left: 0.5vmin;
+    padding-right: 0.5vmin;
+    z-index: 5;
+    background-color: #fff;
+    border-radius: 1vmin;
+    padding: 18px;
+    }
+        
+    #panel-informacion-alergenos-fotos img{
+    width: 45spx;
+    height: 45px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    }
+    
+}
+    
+@media only screen and (max-width: 768px){
+    
+    #floating-panel-right{
+    position: absolute;
+    bottom: 0%;
+    right: -50%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    margin-right: 18px;
+    }
+    
+    #full-floating-panel-right{
+    padding-top: 0.5vmin;
+    padding-bottom: 1vmin;
+    padding-left: 0.5vmin;
+    padding-right: 0.5vmin;
+    z-index: 5;
+    background-color: #fff;
+    border-radius: 1vmin;
+    padding: 18px;
+    }
+        
+    #panel-informacion-alergenos-fotos img{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    }
+    
+}
+    
+        
+@media only screen and (max-width: 732px){
+    
+    #floating-panel-right{
+    position: absolute;
+    bottom: 0%;
+    right: -60%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 55%;
+    margin-right: 18px;
+    }
+    
+    #full-floating-panel-right{
+    padding-top: 0.5vmin;
+    padding-bottom: 1vmin;
+    padding-left: 0.5vmin;
+    padding-right: 0.5vmin;
+    z-index: 5;
+    background-color: #fff;
+    border-radius: 1vmin;
+    padding: 18px;
+    }
+        
+    #panel-informacion-alergenos-fotos img{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    }
+    
+}
+    
+@media only screen and (max-width: 585px){
+    
+    #floating-panel-right{
+    position: absolute;
+    bottom: 0%;
+    right: -80%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 75%;
+    margin-right: 18px;
+    }
+    
+    #full-floating-panel-right{
+    padding-top: 0.5vmin;
+    padding-bottom: 1vmin;
+    padding-left: 0.5vmin;
+    padding-right: 0.5vmin;
+    z-index: 5;
+    background-color: #fff;
+    border-radius: 1vmin;
+    padding: 18px;
+    }
+        
+    #panel-informacion-alergenos-fotos img{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    }
+    
+}
+
+@media only screen and (max-width: 425px){
+    
+    #floating-panel-right{
+    position: absolute;
+    bottom: 0%;
+    right: -100%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin-right: 5%;
+    }
+    
+    #full-floating-panel-right{
+    padding-top: 0.5vmin;
+    padding-bottom: 1vmin;
+    padding-left: 0.5vmin;
+    padding-right: 0.5vmin;
+    z-index: 5;
+    background-color: #fff;
+    border-radius: 1vmin;
+    padding: 18px;
+    }
+        
+    #panel-informacion-alergenos-fotos img{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    }
+    
+}
+    
+@media only screen and (max-width: 375px){
+    
+    #floating-panel-right{
+    position: absolute;
+    bottom: 0%;
+    right: -100%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin-right: 4%;
+    }
+    
+    #full-floating-panel-right{
+    padding-top: 0.5vmin;
+    padding-bottom: 1vmin;
+    padding-left: 0.5vmin;
+    padding-right: 0.5vmin;
+    z-index: 5;
+    background-color: #fff;
+    border-radius: 1vmin;
+    padding: 18px;
+    }
+        
+    #panel-informacion-alergenos-fotos img{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    }
+
+    .peque{
+        font-size: 16px;
+    }
+    
+    
+}
+    
+    
+@media only screen and (max-width: 360px){
+
+    .body{
+        line-height: 1;
+    }
+    .peque{
+        font-size: 15px;
+        margin-top: 2px;
+    }
+    h5{
+        font-size: 16px;
+    }
+
+    #informacion-util{
+        line-height: 1.1;
+    }
+}
+
+@media only screen and (max-width: 320px){
+
+    body{
+        line-height: 1;
+    }
+    
+    #floating-panel-right{
+    position: absolute;
+    bottom: 0%;
+    right: -100%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin-right: 4%;
+    }
+    
+    #informacion-util{
+        line-height: 1.1;
+    }
+
+    p{
+        font-size: 15px;
+        
+    }
+
+    .peque{
+        margin-top: 3px;
+    }
+    
+    #full-floating-panel-right{
+    padding-top: 0.5vmin;
+    padding-bottom: 1vmin;
+    padding-left: 0.5vmin;
+    padding-right: 0.5vmin;
+    z-index: 5;
+    background-color: #fff;
+    border-radius: 1vmin;
+    padding: 18px;
+    }
+        
+    #panel-informacion-alergenos-fotos img{
+    width: 37px;
+    height: 37px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    }
+
+    h5{
+        font-size: 16px;
+    }
+
+    .slider:before{
+        height:22px;
+        width: 22px;
+        left: 5px;
+        bottom: 3.7px;
+    }
+}

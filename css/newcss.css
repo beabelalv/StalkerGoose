@@ -1,0 +1,26 @@
+ #fototw{
+    display:flex;
+    height: 50px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorv{
+    display: flex;
+    flex-direction: column;
+}
+
+#user{
+    padding: 15px;
+}
+img{
+    border-radius: 10px;
+}
+
+.minic{
+    display: flex;
+    flex-direction: row;
+}

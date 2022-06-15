@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title> My Online Info </title>
+        <link rel="icon" type="image/x-icon" href="/src/favicon.ico">
+
+        <!-- Firebase -->
+        <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <!-- TOGGLES -->
+        <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+        <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="css/mapa.css">
+        <link rel="stylesheet" type="text/css" href="css/mapa-movil.css">
+        <link rel="stylesheet" type="text/css" href="css/toggle.css">
+        <link rel="stylesheet" type="text/css" href="css/newcss.css">
+
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
+                 
+    </head>
+    
+    <body>
+        
+         <nav class="navbar navbar-expand-lg navbar-light " id="nav1">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">Stalker Goose</a>
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="proyecto.html">Mapa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="timeline.html">Timeline</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="masinfo.html">Información</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        
+        
+        <div class="menu-bar">
+            <a class="btn-menu"> <div class="hamburguesa"> <div class="h1"> </div> <div class="h1"> </div> <div class="h1"> </div> </div> </a>
+        </div>
+        
+        <div id="floating-panel">
+            <div class="contenedor">
+                <div id="fototw"> </div>
+                <div class="item" id="user"> <p> Nuestro usuario,  &nbsp;</p> <p> Twitter: &nbsp;</p> <div id="resultado"> </div> <p> <div id="fototw"> </div> &nbsp; Instagram: &nbsp;</p> <div id="resultado2"> </div> </p> </div>
+            </div>
+            <h5> Información del usuario en Twitter: </h5>
+            <div class="contenedorv">
+                <div class="minic"> <p> Nombre:  &nbsp; </p> <div id="nombre"> </div> </div>
+                <div class="minic"> <p> Ubicación:  &nbsp; </p> <div id="location"> </div> </div>
+                <div class="minic"> <p> Bio:  &nbsp; </p> <div id="description"> </div> </div>
+            </div>
+            <h5> Información del usuario en Instagram: </h5>
+            <div class="contenedorv">
+              <div class="minic"> <p> Nombre:  &nbsp; </p> <div id="nombreinsta"> </div> </div>
+              <div class="minic"> <p> Bio:  &nbsp; </p> <div id="descriptioninsta"> </div> </div>
+          </div>
+          
+            <button type="button" class="btn btn-outline-secondary btn-click"> Cerrar </button>
+            
+        </div>
+         
+        <div id="map"> 
+        <script> 
+
+        var user= {};
+        var tweets=[];
+        var instauser= {};
+        var posts= [];
+
+        </script>
+        <script src="js/mapa.js"> </script> 
+        </div>
+        
+        <script src="js/togglemenu.js"> </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY&libraries=places&callback=initMap"></script>
+
+            <div id="move">
+                <div class="card" style="width: 30rem;">
+                <div id="panel-informacion-general">
+                    <div id="panel-title">
+                        <h3 id="text-title"> </h3>
+                    </div>
+                    <div id="panel-direction">
+
+                    </div>
+                </div>
+                <h5 id="text-more-info"> - Últimos Tweets para la ubicación: </h5>
+                <div id="informacion-util">
+                    <div id="tweets"> </div>
+                </div>
+                    <button type="button" class="btn btn-outline-secondary btn-click-1"> Cerrar </button>
+                </div>
+        </div>       
+    </body>
+</html>

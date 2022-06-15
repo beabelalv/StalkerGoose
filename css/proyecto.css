@@ -1,0 +1,76 @@
+body{
+    background-color: aliceblue;
+    font-family: "Nunito";
+    height:100%;
+    width:100%;
+    user-select: none;
+}
+
+
+/* ABOUT ME */
+
+.section-1{
+    padding: 12vmin 0;
+}
+
+.section-1 .row .col-md-6 .me img{
+    opacity: 0.9;
+    width: 80%;
+    border-radius: 10px;
+    
+}
+
+.section-1 .row .col-md-6:last-child{
+    position: relative;
+    
+}
+
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 5vmin;
+    left: -15vmin;
+    background: white;
+    border-radius: 7px;
+    text-align: left;
+    padding: 13vmin 10vmin 13vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navbar-brand{
+    margin-left: 10px;
+}
+
+/*CAROUSEL*/
+
+.carousel{
+    height:100%;
+    width: 100%;
+}
+
+
+.carousel-item{
+    background-size: cover;
+    height: 94vh;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 34%;
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+
+.carousel-caption h1{
+    font-size: 3.6rem;
+    font-weight:  700;
+    letter-spacing: .20rem;
+    padding-bottom: .5rem;
+    text-shadow: .1rem .1rem .5rem #8e8e8e;
+}
+
+.carousel-caption h3{
+    text-shadow: .1rem .1rem .5rem #8e8e8e;
+    padding-bottom: 1.6rem;
+}

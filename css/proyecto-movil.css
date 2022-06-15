@@ -1,0 +1,127 @@
+@media only screen and (max-width: 768px){
+    .body{
+        overflow: hidden;
+    }
+    
+    .section-1{
+        padding-top: 15vmin;
+        padding-left: 0vmin;
+        padding-right: 7vmin;
+        padding-bottom: 10vmin;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+
+        width: initial;
+        height: initial;
+        padding-top: 7vmin;
+        padding-bottom: 7vmin;
+        padding-left: 9vmin;
+        padding-right: 9vmin;
+    }
+
+
+}
+
+@media only screen and (max-width: 1024px){
+    .body{
+        overflow: auto;
+    }
+    
+    .section-1{
+        padding-top: 14vmin;
+        padding-left: 0vmin;
+        padding-right: 7vmin;
+        padding-bottom: 10vmin;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+
+        width: initial;
+        height: initial;
+        padding-top: 7vmin;
+        padding-bottom: 7vmin;
+        padding-left: 9vmin;
+        padding-right: 9vmin;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 425px){
+    .body{
+        overflow: auto;
+    }
+    
+    .section-1{
+        padding-top: 10vmin;
+        padding-left: 0vmin;
+        padding-right: 0vmin;
+        padding-bottom: 10vmin;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+
+        width: initial;
+        height: initial;
+        margin-top: 5vmin;
+        padding-top: 7vmin;
+        padding-bottom: 7vmin;
+        padding-left: 25vmin;
+        padding-right: 9vmin;
+    }
+
+
+}
+
+@media only screen and (max-width: 574px){
+    .body{
+        overflow: auto;
+    }
+    
+    .section-1{
+        padding-top: 10vmin;
+        padding-left: 0vmin;
+        padding-right: 0vmin;
+        padding-bottom: 10vmin;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+
+        width: initial;
+        height: initial;
+        padding-top: 7vmin;
+        padding-bottom: 7vmin;
+        padding-left: 25vmin;
+        padding-right: 9vmin;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px){
+    .body{
+        overflow: auto;
+    }
+    
+    .section-1{
+        padding-top: 10vmin;
+        padding-left: 0vmin;
+        padding-right: 0vmin;
+        padding-bottom: 10vmin;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+
+        width: initial;
+        height: initial;
+        padding-top: 7vmin;
+        padding-bottom: 7vmin;
+        padding-left: 9vmin;
+        padding-right: 9vmin;
+        margin-left: 15vmin;
+    }
+
+
+}

@@ -1,0 +1,110 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Nunito';
+    color: darkslategray;
+    overflow: hidden;
+    user-select: none;
+}
+
+.carousel{
+    height:100%;
+    width: 100%;
+}
+
+.centrar{
+    margin-top: 5vh;
+}
+
+.carousel-item{
+    background-size: cover;
+    height: 94.5vh;
+    
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 34%;
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+
+.carousel-caption h1{
+    font-size: 4.2vmin;
+    font-weight:  700;
+    letter-spacing: .20rem;
+    padding-bottom: .5rem;
+    text-shadow: .1rem .1rem .5rem #8e8e8e;
+}
+
+.carousel-caption h3{
+    font-size: 3vmin;
+    text-shadow: .1rem .1rem .5rem #8e8e8e;
+    padding-bottom: 1.6rem;
+}
+
+.navbar-collapse{
+    margin-left: 1vmin;
+    margin-right: 1vmin;
+}
+
+.btn{
+    font-size: 2.2vmin;
+}
+
+
+@media only screen and (max-width: 768px){
+    .carousel-caption h1{
+        font-size: 8vmin;
+    }
+
+    
+    .carousel-caption h3{
+        font-size: 4vmin;
+        text-shadow: .1rem .1rem .5rem #8e8e8e;
+        padding-bottom: 1.6rem;
+    }
+
+    .btn{
+        font-size: 3vmin;
+    }
+    
+}
+
+
+@media only screen and (max-width: 565px){
+    .carousel-caption h1{
+        font-size: 10vmin;
+    }
+
+    
+    .carousel-caption h3{
+        font-size: 6vmin;
+        text-shadow: .1rem .1rem .5rem #8e8e8e;
+        padding-bottom: 1.6rem;
+    }
+
+
+    .btn{
+        font-size: 5vmin;
+        display: flex;
+        flex-direction: column;
+        margin: 3vmin;
+        width: 60vmin;
+        margin-left: 20vmin;
+    }
+    
+    .carousel-caption{
+        margin-top: -15vmin;
+    }
+
+
+    
+}
+@media only screen and (max-width: 425px){
+    .carousel-caption{
+        margin-top: -20vmin;
+    }
+
+    
+}

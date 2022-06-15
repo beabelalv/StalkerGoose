@@ -1,0 +1,164 @@
+body{
+    user-select: none;
+}
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/*TOGGLES */
+
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    margin: 0px 5px 5px 10px;
+    left: 0min;
+    bottom: 0vmin;
+} 
+
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .1s;
+    border-radius: 34px;
+}
+
+.switch input {display:none}
+
+.slider:before{
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    left: 4px;
+    bottom: 3.2px;
+    background-color: white;
+    transition: 0.15s;
+    border-radius: 50px;
+}
+
+input:checked + .gluten{
+    background-color: #ff9414;
+}
+
+input:checked + .lactose{
+    background-color: #83ddde;
+}
+
+
+input:checked + .dairy{
+    background-color: #72a2e2;
+}
+
+
+input:checked + .vegetarian{
+    background-color: #42e45d;
+}
+
+input:checked + .vegan{
+    background-color: #539a5e;
+}
+
+input:checked + .cc{
+    background-color: #9f52d6;
+}
+
+input:checked + .restaurante{
+    background-color: #d73533;
+}
+
+input:checked + .tapas{
+    background-color: #ffb55c;
+}
+
+input:checked + .heladeria{
+    background-color: #9eb6fe;
+}
+
+input:checked + .cafeteria{
+    background-color: #5dbcd2;
+}
+
+input:checked + .comida_rapida{
+    background-color: #ffcdfe;
+}
+
+input:checked + .slider:before{
+    transform: translateX(23px);
+}
+
+/*MENU PARA PC*/
+
+.menu-bar{
+    display: none;
+}
+
+.btn-click{
+    display: block;
+}
+
+.menu-bar .btn-menu{
+    display: block;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.menu-bar{
+    display: block;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 1%;
+    left: -100%;
+    z-index: 5;
+    background-color: #fff;
+    border-radius: 1vmin;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    color: #bfbfbf;
+}
+
+/*MENU PARA MOVILES*/
+
+@media screen and (max-width:800px){
+    .menu-bar{
+        display: block;
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        bottom: 1%;
+        left: 1%;
+        z-index: 5;
+        background-color: #fff;
+        border-radius: 1vmin;
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+        color: #bfbfbf;
+        
+    }
+    
+    .menu-bar .btn-menu{
+        display: block;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+    
+    #floating-panel{
+        left: -100%;
+    }
+    
+    .btn-click{
+        display: block;
+    }
+    
+}
